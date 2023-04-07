@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Tasca DWES2 - Restaurant</title>
+  </head>
+  <body>
+    <h1>Tasca DWES2 - Restaurant</h1>
+    <div class="alert alert-secondary" role="alert">
+      <div class="row">
+        <div class="col-sm-2">
+          <form name="canviPantalla" method="POST" action="UT2_exemple4_registre.html">
+            <button type="submit" class="btn btn-primary">Prendre comanda</button>
+          </form>
+        </div>
+        <div class="col-sm-2">
+          <form name="canviPantalla" method="POST" action="UT2_exemple4_taules.html">
+            <button type="submit" class="btn btn-light">Veure Taules </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+    <form name="comanda" method="POST" action="">
+      <p>
+        <label for="taula">Taula:</label>
+        <input type="number" step="1" max="8" min="1" id="taula" name="taula" required>
+        <label for="comensals">Comensals:</label>
+        <input type="number" step="1" max="6" min="1" name="comensals" id="comensals" required>
+    </p>
+    <h2> Primer plat</h2>
+    <p>
+      <label for="primer1">Primera opcio de primer plat</label>
+      <input type="number" step="1" max="6" min="0" name="primer1" id="primer1">
+    </p>
+        <p>
+      <label for="primer2">Segona opcio de primer plat</label>
+      <input type="number" step="1" max="6" min="0" name="primer2" id="primer2">
+    </p>
+        <p>
+      <label for="primer3">Tercera opcio de primer plat</label>
+      <input type="number" step="1" max="6" min="0" name="primer3" id="primer3">
+    </p>
+    <h2> Segon plat</h2>
+    <p>
+      <label for="segon1">Primera opcio de segon plat</label>
+      <input type="number" step="1" max="6" min="0" name="segon1" id="segon1">
+    </p>
+        <p>
+      <label for="segon2">Segona opcio de segon plat</label>
+      <input type="number" step="1" max="6" min="0" name="segon2" id="segon2">
+    </p>
+        <p>
+      <label for="segon3">Tercera opcio de segon plat</label>
+      <input type="number" step="1" max="6" min="0" name="segon3" id="segon3">
+    </p>
+
+    <div style="text-align: center">
+        <input type="submit" value="Enviar" name="enviar" style="margin-right: 5px; width: 60px; height:30px; font-weight: bold">
+        <input type="reset" value="Limpiar" style="width: 60px; height:30px; font-weight: bold">
+    </div>
+</form>
+  </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
